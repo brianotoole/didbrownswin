@@ -1,9 +1,10 @@
-title: Did the Jacksonville Jaguars Win?
-email: hello@didjagswin.com
+title: Did the Cleveland Browns Win?
+email: hello@didbrownswin.com
 author: Brian OToole
 description: #
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+current_team: Browns
+url: http://didbrownswin.com # the base hostname & protocol for your site, e.g. http://example.com
 url_jags: http://didjagswin.com
 url_browns: http://didbrownswin.com
 url_bucs: http://didbucswin.com
