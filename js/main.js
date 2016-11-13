@@ -36,13 +36,13 @@ $.getJSON(apiUrl, function(data) {
     } else if (isTie) {
       htmlResult = "A freaking tie. Change the rules already, NFL!";
     } else if (isHome == true && winnerHome == true) {
-      htmlResult = "Wow. Yes, they actually beat the " + opposingTeamName + ".";
+      htmlResult = "I don't believe it, but... Yes, they beat the " + opposingTeamName + ".";
     } else if (isHome == true && winnerHome == false) {
-      htmlResult = "LOL, No. Lost to the " + opposingTeamName + ".";
+      htmlResult = "Of course not. Lost to the " + opposingTeamName + ".";
     } else if (isHome == false && winnerHome == true) {
       htmlResult = "Nope. Lost to the " + opposingTeamName + ".";
     } else if (isHome == false && winnerHome == false) {
-      htmlResult = "OMG, Yes. They won on the road vs. the " + opposingTeamName + ".";
+      htmlResult = "It's a miracle! They won on the road vs. the " + opposingTeamName + ".";
     } else { 
       //
     }
